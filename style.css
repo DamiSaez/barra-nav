@@ -1,0 +1,65 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    
+}
+header{
+    
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.palabra{
+    margin-left: 10px;
+}
+.logos{
+    display: flex;
+    margin-left: 25px;
+    align-items: center;
+    
+   
+    
+}
+nav>a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    font-size: 20px;
+}
+.ingresos{
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+   
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.registro{
+    display: flex;
+    align-items: center;
+    
+}
+button{
+    background-color: blue;
+    font-size:  15px;
+    border: 1px solid white;
+    color:white;
+    border-radius: 10px;
+    padding: 12px 1.5rem;
+    cursor:pointer;
+    
+}
